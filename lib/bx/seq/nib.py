@@ -25,7 +25,7 @@ from __future__ import division
 from bx.seq.seq import SeqFile,SeqReader
 import sys, struct, string, math
 
-import _nib
+from . import _nib
 
 NIB_MAGIC_NUMBER = 0x6BE93D3A
 NIB_MAGIC_NUMBER_SWAP = 0x3A3DE96B
