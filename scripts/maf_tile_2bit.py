@@ -42,7 +42,7 @@ import os
 import string
 import sys
 
-tree_tx = string.maketrans( "(),", "   " )
+tree_tx = bytes.maketrans( "(),", "   " )
 
 def main():
 

@@ -21,7 +21,7 @@ import sys
 from bx.align import maf
 import string
 
-table = string.maketrans( "#=X@", "-***")
+table = bytes.maketrans( "#=X@", "-***")
 
 def main():
 

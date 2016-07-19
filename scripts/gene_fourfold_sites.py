@@ -117,7 +117,7 @@ def getnib( nibdir ):
 
     return seqs
 
-REVMAP = string.maketrans("ACGTacgt","TGCAtgca")
+REVMAP = bytes.maketrans("ACGTacgt","TGCAtgca")
 def revComp(seq):
     return seq[::-1].translate(REVMAP)
 

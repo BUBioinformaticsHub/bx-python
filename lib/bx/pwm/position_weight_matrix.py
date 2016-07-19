@@ -137,7 +137,7 @@ def score_align_motif (align,motif,gapmask=None,byPosition=True):
 
 class PositionWeightMatrix (object):
 
-    complementMap = string.maketrans("ACGTacgt","TGCAtgca")
+    complementMap = bytes.maketrans("ACGTacgt","TGCAtgca")
 
     # IUPAC-IUB
     symbols = {

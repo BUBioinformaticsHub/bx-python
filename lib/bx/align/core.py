@@ -13,7 +13,7 @@ from bx.misc.readlengths import read_lengths_file
 ##            "                                                                " \
 ##            "                                                                "
 
-DNA_COMP = string.maketrans( "ACGTacgt", "TGCAtgca" )
+DNA_COMP = bytes.maketrans( "ACGTacgt", "TGCAtgca" )
 
 class Alignment( object ):
 
