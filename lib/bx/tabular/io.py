@@ -4,7 +4,7 @@ Reading and writing delimited data files (with headers and comments).
 
 import sys
 from itertools import *
-from UserDict import DictMixin
+from collections import MutableMapping as DictMixin
 
 FIRST_LINE_IS_HEADER = object()
 
